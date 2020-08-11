@@ -1,0 +1,2 @@
+# Code-Quiz
+This assignment we had to create a pop quiz that has a timer and is able to store high score points. The person will have to go through each question within 50 seconds . Each question they get right it is 10 points and with each question they get wrong the timer is reduced by 10 seconds. Once the person is done with the pop quiz they will be able to place in their initials and keep record of their score.
