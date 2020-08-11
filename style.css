@@ -1,0 +1,26 @@
+h1 {
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-display: center;
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
+}
+
+.option {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.questions {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+}

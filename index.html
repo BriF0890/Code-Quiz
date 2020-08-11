@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Pop Quiz</title>
+</head>
+<body>
+    <h1>Javascript Pop Quiz</h1>
+    <p>This will be a pop quiz on how much you know about Javascript fundamentals. You will have 50 seconds to complete the questionaire and after you are done you will be able to place in your initials to store your highscore. Each question you get right it is 10 points and with each question you get wrong the timer is reduced by 10 seconds. Click on the "Start" button to start on the quiz!</p>
+</div>
+<button class="click">Start</button>
+<div class="questions">
+    <p>1.Commonly used data types DO NOT include:</p>
+    <form class="options">
+        <input class="option" type="radio" name="question1" value=4>Strings<br>
+        <input class="option" type="radio" name="question1" value=3>Alerts<br>
+        <input class="option" type="radio" name="question1" value=2>Numbers<br>
+        <input class="option" type="radio" name="question1" value=1>Booleans</br>
+    </form>
+</div>
+<div class="questions">
+    <p>2. The condition in an if/ else statement is enclosed with____?</p>
+    <form class="options">
+        <input class="option" type="radio" name="question2" value=4>quotes<br>
+        <input class="option" type="radio" name="question2" value=3>curly brackets<br>
+        <input class="option" type="radio" name="question2" value=2>parenthesis<br>
+        <input class="option" type="radio" name="question2" value=1>square brackets<br>
+    </form>
+</div>
+<div class="questions">
+    <p>3. Arrays in Javascript can be used to store_____?</p>
+    <form class="options">
+        <input class="option" type="radio" name="question3" value=4>numbers and strings<br>
+        <input class="option" type="radio" name="question3" value=3>other arrays<br>
+        <input class="option" type="radio" name="question3" value=2>booleans<br>
+        <input class="option" type="radio" name="question3" value=1>all of the above<br>
+    </form>
+</div>
+<div class="questions">
+    <p>4. String value must be enclosed within____when being assigned to variables?</p>
+    <form class="options">
+        <input class="option" type="radio" name="question4" value=4>commas<br>
+        <input class="option" type="radio" name="question4" value=3>curly brackets<br>
+        <input class="option" type="radio" name="question4" value=2>quotes<br>
+        <input class="option" type="radio" name="question4" value=1>parenthesis<br>
+    </form>
+</div>
+<div class="questions">
+    <p>5. A very useful tool used during development and debugging for printing content to to the debugger is:</p>
+    <form class="options">
+        <input class="option" type="radio" name="question5" value=4>JavaScript<br>
+        <input class="option" type="radio" name="question5" value=3>terminal/bash<br>
+        <input class="option" type="radio" name="question5" value=2>for loops<br>
+        <input class="option" type="radio" name="question5" value=1>console.log<br>
+    </form>
+</div>
+    <br>
+    <input type="button" id='Submit' value="Submit" onlick="sum_values()">
+
+    <div class="card">
+        <h2>Highscore</h2>
+        <p><strong>First Name:</strong> <span id="user-first-name"></span></p>
+        <p><strong>Last Name:</strong> <span id="user-last-name"></span></p>
+        <button>Submit</button>
+      </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
